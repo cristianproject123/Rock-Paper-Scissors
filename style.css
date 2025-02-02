@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #030303;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    border-radius: 12px;
+}
+
+.shape-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.shape-button img {
+    width: 100px;
+    height: auto;
+}
+
+.choice-image {
+    width: 100px;  
+    height: auto;  
+    display: block;
+    margin: 0 auto;
+}
+
+/* Media Queries para Pantallas Móviles */
+@media screen and (max-width: 768px) {
+    .shape-button img {
+        width: 80px; /* Ajusta el tamaño de las imágenes para pantallas pequeñas */
+    }
+    
+    .header {
+        padding: 0.8rem; /* Menos padding en pantallas pequeñas */
+    }
+    
+    .card {
+        margin: 0 1rem; /* Deja más espacio entre las cartas */
+    }
+    
+    /* Asegura que el cuerpo tenga un color de fondo consistente en móvil */
+    body {
+        background-color: #f0f0f0; /* Fondo claro para el móvil */
+    }
+}
+
